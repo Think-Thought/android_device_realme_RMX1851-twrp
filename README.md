@@ -3,7 +3,7 @@
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_RMX1851-eng
+lunch omni_RMX1851-eng
 make recoveryimage
 ```
 
