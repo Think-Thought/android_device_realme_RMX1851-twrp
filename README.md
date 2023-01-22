@@ -9,3 +9,6 @@ export ALLOW_MISSING_DEPENDENCIES=true
 lunch omni_RMX1851-eng
 make recoveryimage
 ```
+### Special Thanks:
+- TWRP team
+- @mauronofrio
