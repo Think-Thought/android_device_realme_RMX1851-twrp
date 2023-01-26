@@ -50,7 +50,7 @@ jobs:
         cd ${GITHUB_WORKSPACE}/workspace
         source build/envsetup.sh
         lunch omni_RMX1851-eng
-        make clean && mka recoveryimage -j$(nproc --all)
+        make clean && make recoveryimage -j$(nproc --all)
         
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
